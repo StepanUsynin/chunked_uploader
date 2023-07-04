@@ -7,4 +7,3 @@ environment:
 
 dependencies:
   dio: ^5.2.1+1
-  universal_io: ^2.2.2

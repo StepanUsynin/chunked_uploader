@@ -1,10 +1,10 @@
 library chunked_uploader;
 
 import 'dart:async';
+import 'dart:io';
 import 'dart:math';
 import 'package:async/async.dart';
 import 'package:dio/dio.dart';
-import 'package:universal_io/io.dart';
 
 class ChunkedUploader {
   final Dio _dio;
